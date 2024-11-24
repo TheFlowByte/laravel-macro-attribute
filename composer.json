@@ -1,0 +1,27 @@
+{
+    "name": "theflowbyte/laravel-macro-attribute",
+    "description": "Simplifies binding macros to methods in Laravel using PHP 8 attributes.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iurii Mandrik",
+            "email": "iurii.mandrik@icloud.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TheFlowByte\\MacroAttribute\\": "src/",
+            "TheFlowByte\\MacroAttribute\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "laravel/pint": "^1.18"
+    }
+}
